@@ -15,6 +15,8 @@ class ListMeal: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("test sourceTree")
+        print("test tiep sourceTreeß")
+        print("test tiep phat nua sourceTree")
         if let saveMeals = loadMeal() {
             listMeal += saveMeals
         }
